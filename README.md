@@ -16,7 +16,7 @@ Traction is an application that helps user form new habits, by providing notific
 * _Clone down repository from Git Hub to machine._
 * _Navigate to root directory._
 * _run command `npm run start:watch` in terminal to view code._
-* _View via [heroku](https://) (Server-side rendering)._
+* _View via [heroku](https://better-please-traction.herokuapp.com/) (Server-side rendering)._
 
 
 ## Support and contact details
