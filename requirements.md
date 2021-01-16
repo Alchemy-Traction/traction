@@ -2,6 +2,7 @@
 
 <img src="./images/signUp.png"
      alt="Sign Up" />
-![alt text] ('./images/signUp.png')
-![alt text] (./images/setHabit.png?raw=true "Set Habit")  
-![alt text] (./images/setReminder.png?raw=true "Set Reminder")  
+<img src="./images/setHabit.png"
+     alt="Set Habit" />
+<img src="./images/setReminder.png"
+     alt="Set Reminder" />
