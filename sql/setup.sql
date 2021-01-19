@@ -3,11 +3,11 @@ DROP TABLE IF EXISTS habits CASCADE;
 
 CREATE TABLE users (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    phone_number INTEGER NOT NULL,
-    pin INTEGER NOT NULL,
-    password VARCHAR(20) NOT NULL,
-    password_hash TEXT NOT NULL,
-    user_photo_url TEXT NOT NULL
+    phone_number VARCHAR(20),
+    pin INTEGER,
+    password VARCHAR(20),
+    password_hash TEXT,
+    user_photo_url TEXT
 );
 
 CREATE TABLE habits (
