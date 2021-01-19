@@ -19,3 +19,4 @@ CREATE TABLE habits (
     reminder_time INTEGER NOT NULL, 
     user_id BIGINT REFERENCES users(id) NOT NULL
 );
+
