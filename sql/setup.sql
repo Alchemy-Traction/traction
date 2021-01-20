@@ -22,7 +22,7 @@ CREATE TABLE habits (
 
 CREATE TABLE habit_logs (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    reminder_sent Date,
+    habit_completion_date Date,
     response Boolean,
     response_sent Date,
     habit_image_Url TEXT,
