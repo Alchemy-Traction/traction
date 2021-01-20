@@ -12,11 +12,22 @@ CREATE TABLE users (
 
 CREATE TABLE habits (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    prompt TEXT NOT NULL,
-    label TEXT NOT NULL,
+    prompt TEXT,
+    label TEXT,
     reminder_type JSONB,
     --day_of_week JSONB,
-    reminder_time INTEGER NOT NULL, 
-    user_id BIGINT REFERENCES users(id) NOT NULL
+    reminder_time INTEGER, 
+    user_id BIGINT REFERENCES users(id)
+);
+
+CREATE TABLE habit_logs (
+id: BIG INT (234),
+habit_id References (habits.id) BIG INT (2444),
+reminder_sent: Date,
+response: Boolean,
+response_sent: Date,
+photo_Url: TEXT,
+matched_label: BOOLEAN,
+response_message: TEXT
 );
 
