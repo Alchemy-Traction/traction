@@ -21,13 +21,13 @@ CREATE TABLE habits (
 );
 
 CREATE TABLE habit_logs (
-id: BIG INT (234),
-habit_id References (habits.id) BIG INT (2444),
-reminder_sent: Date,
-response: Boolean,
-response_sent: Date,
-photo_Url: TEXT,
-matched_label: BOOLEAN,
-response_message: TEXT
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    reminder_sent Date,
+    response Boolean,
+    response_sent Date,
+    habit_image_Url TEXT,
+    matched_label BOOLEAN,
+    response_message TEXT,
+    habit_id BIGINT REFERENCES habits(id) 
 );
 
