@@ -18,3 +18,6 @@ jobs:
       env:
         CI: true
         DATABASE_URL: postgres://alchemy:alchemy@postgres:5432/alchemy
+        TWILIO_ACCOUNT_SID: 000000
+        TWILIO_AUTH_TOKEN: 000000
+
