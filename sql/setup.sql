@@ -1,5 +1,7 @@
 DROP TABLE IF EXISTS users CASCADE;
 DROP TABLE IF EXISTS habits CASCADE;
+DROP TABLE IF EXISTS habit_logs CASCADE;
+DROP TABLE IF EXISTS notifications;
 
 CREATE TABLE users (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -22,12 +24,17 @@ CREATE TABLE habits (
 
 CREATE TABLE habit_logs (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    habit_completion_date Date,
+    habit_complete DATE,
     response Boolean,
-    response_sent Date,
-    habit_image_Url TEXT,
+    response_sent DATE,
+    habit_image_url TEXT,
     matched_label BOOLEAN,
     response_message TEXT,
     habit_id BIGINT REFERENCES habits(id) 
 );
 
+CREATE TABLE notifications (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    reminder_sent Date,
+    notification_id BIGINT REFERENCES habits(id)
+);
