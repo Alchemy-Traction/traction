@@ -25,14 +25,16 @@ CREATE TABLE habits (
 CREATE TABLE habit_logs (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     habit_complete DATE,
+    response Boolean,
+    response_sent DATE,
     habit_image_url TEXT,
     matched_label BOOLEAN,
+    response_message TEXT,
     habit_id BIGINT REFERENCES habits(id) 
 );
 
 CREATE TABLE notifications (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     reminder_sent Date,
-    notification_id BIGINT REFERENCES habit(id)
+    notification_id BIGINT REFERENCES habits(id)
 );
-
