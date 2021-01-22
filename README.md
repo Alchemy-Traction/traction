@@ -1,14 +1,14 @@
-# _TRACTION_
+# _TRAKTION_
 
 
-#### Traction is a habit forming, notification and tracking app, 01-14-2021
+#### Traktion is a habit forming, notification and tracking app, 01-14-2021
 
 #### By _**Jonathan Quesada, Jena Boehm, Rosalie Lee, Perry Sittser, Katie Berry, Andrew Bray**_ 
 
 
 ## Description
 
-Traction is an application that helps user form new habits, by providing notifications to the user regarding the habits they want to focus on. The user sets up notifications, upon receiving the notification the user responds with a photo engaging in their habit of choice. Traction responds to provide reinforcement for habits prioritized by the user.
+Traktion is an application that helps user form new habits, by providing notifications to the user regarding the habits they want to focus on. The user sets up notifications, upon receiving the notification the user responds with a photo engaging in their habit of choice. Traktion responds to provide reinforcement for habits prioritized by the user.
 
 
 ## Setup/Installation Requirements
