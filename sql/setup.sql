@@ -30,6 +30,7 @@ CREATE TABLE habit_logs (
     habit_image_url TEXT,
     matched_label BOOLEAN,
     response_message TEXT,
+    user_id BIGINT REFERENCES users(id),
     habit_id BIGINT REFERENCES habits(id) 
 );
 
