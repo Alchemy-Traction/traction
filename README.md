@@ -33,9 +33,7 @@ _Questions or comments can be directed to [Jonathan Quesada](jonnythan.quesada@g
 * _Twilio_
 * _Heroku_
 * _ngrok_
-* _Pug_
 * _Express_
-* _CSS (Tailwind?)_
 
 
 ## External API
