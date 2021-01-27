@@ -8,7 +8,7 @@
 
 ## Description
 
-Traktion is an application that helps user form new habits, by providing notifications to the user regarding the habits they want to focus on. The user sets up notifications, upon receiving the notification the user responds with a photo engaging in their habit of choice. Traktion responds to provide reinforcement for habits prioritized by the user.
+Traktion is an entirely backend SMS-based app that helps users form new habits. The user sets up their reminders, and upon receiving the reminders they respond with a photo of them engaging in their habit of choice. Traktion verifies the user’s face and habit in the photo and then responds with reinforcement and confirmation of completion. 
 
 
 ## Setup/Installation Requirements
