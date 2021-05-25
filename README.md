@@ -18,6 +18,9 @@ Traktion is an entirely backend SMS-based app that helps users form new habits. 
 * _run command `npm run start:watch` in terminal to view code._
 * _View via [heroku](https://better-please-traction.herokuapp.com/)._
 
+## To Try Traktion:
+* _Text 971-233-3809 with 'SIGNUP'
+
 
 ## Support and contact details
 
